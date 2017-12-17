@@ -39,7 +39,7 @@ public class Controller implements Initializable {
 
     private final static DoubleStringConverter DOUBLE_STRING_CONVERTER = new DoubleStringConverter();
 
-    private final static DecimalFormat CURRENCY_FORMAT = new DecimalFormat("#0.00");
+    private final static DecimalFormat CURRENCY_FORMAT = new DecimalFormat("#0.000");
 
     private final ObservableList<Currency> currencies = FXCollections.observableArrayList();
 
