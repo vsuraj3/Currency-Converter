@@ -1,0 +1,26 @@
+
+.root
+{
+	-fx-background-image:url("../images/bg.jpg");
+}
+
+
+.label
+{
+	-fx-font-family: "Bookman Old Style";
+	-fx-font-size: 15px;
+	-fx-text-fill: red;
+	-fx-font-weight: bold;
+} 
+
+.button
+{
+	-fx-text-fill: white;
+	-fx-background-color: rgb(26,227,183);
+}
+
+.button:hover
+{
+	-fx-background-color: rgb(44,33,226);
+}
+
